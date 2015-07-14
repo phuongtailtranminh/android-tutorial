@@ -14,4 +14,57 @@ Android Studio will ask you for install HAXM, you should install this for faster
 
 You have to also check for install Android SDK on the first time install Android Studio
 
+# Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Android-System-Architecture.svg/906px-Android-System-Architecture.svg.png "Layers and Architecture")
+
+
+#### Applications
+
+Application is the layer our app run on!
+
+
+#### Application Framework: 
+
+> Activity Manager − Controls all aspects of the application lifecycle and activity stack.
+
+> Content Providers − Allows applications to publish and share data with other applications.
+
+> Resource Manager − Provides access to non-code embedded resources such as strings, color settings and user interface layouts.
+
+> Notifications Manager − Allows applications to display alerts and notifications to the user.
+
+> View System − An extensible set of views used to create application user interfaces.
+
+#### Libraries: [Reference](http://www.tutorialspoint.com/android/android_architecture.htm)
+
+> android.app − Provides access to the application model and is the cornerstone of all Android applications.
+
+> android.content − Facilitates content access, publishing and messaging between applications and application components.
+
+> android.database − Used to access data published by content providers and includes SQLite database management classes.
+
+> android.opengl − A Java interface to the OpenGL ES 3D graphics rendering API.
+
+> android.os − Provides applications with access to standard operating system services including messages, system services and inter-process communication.
+
+> android.text − Used to render and manipulate text on a device display.
+
+> android.view − The fundamental building blocks of application user interfaces.
+
+> android.widget − A rich collection of pre-built user interface components such as buttons, labels, list views, layout managers, radio buttons etc.
+
+> android.webkit − A set of classes intended to allow web-browsing capabilities to be built into applications.
+
+
+#### Android Runtime: 
+
+Dalvik is a process virtual machine (VM) in Google's Android operating system that executes applications written for Android. [Reference](https://en.wikipedia.org/wiki/Dalvik_(software))
+
+Programs are commonly written in Java and compiled to bytecode for the Java virtual machine, which is then translated to Dalvik bytecode and stored in .dex (Dalvik EXecutable) and .odex (Optimized Dalvik EXecutable) files; related terms odex and de-odex are associated with respective bytecode conversions. The compact Dalvik Executable format is designed for systems that are constrained in terms of memory and processor speed.
+
+> Google made internal changes to the platform, with the Android Runtime (ART) officially replacing Dalvik for improved application performance, and with changes intended to improve and optimize battery usage, known internally as Project Volta [Reference](https://en.wikipedia.org/wiki/Android_version_history)
+
+### Linux Kernel: 
+
+Google's custom kernel based on Linux Kernel 3.4.0, [Reference](https://en.wikipedia.org/wiki/Android_version_history)
