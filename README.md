@@ -14,6 +14,41 @@ Android Studio will ask you for install HAXM, you should install this for faster
 
 You have to also check for install Android SDK on the first time install Android Studio
 
+#### How to create an Android Virtual Device?
+
+Firstly, you have to access AVD (Android Virtual Device) Manager **by the icon** on toolbar or **Tools -> Android -> AVD Manager**
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Icon.png?raw=true "Android Virtual Device Manager Icon")
+
+Next step we'll **Select a hardware** for AVD:
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Select%20Hardware.png?raw=true "Android Virtual Device Select Hardware")
+
+Then, we have to select a **System Image**; You have to download them if you don't have any system image on your machine.
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Select%20Image.png?raw=true "Android Virtual Device Select System Image")
+
+Last step is **Verify Configuration**, enter the name of new android device.
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Verify%20Config.png?raw=true "Android Virtual Device Verify Configuration")
+
+Click **Show advanced settings" if you want edit this android device in more detail.
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Advanced%20Settings.png?raw=true "Android Virtual Device Advanced Settings")
+
+In advanced setting, you can edit your:
+
+- AVD Name,
+- Reselect AVD's Hardware
+- Reselect AVD's System Image
+- Startup size and orientation
+- Camera
+- Network
+- Emulated Performance
+- Memeroy and Storage
+- Custom skin definition
+- Keyboard
+
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Android-System-Architecture.svg/906px-Android-System-Architecture.svg.png "Layers and Architecture")
