@@ -6,7 +6,7 @@ This is quick start for android developer
 
 Android Studio is an official Android IDE supported by Google
 
-Please be careful check out this requirement: http://developer.android.com/sdk/index.html#Requirements before download. Before that you meet the requirement.
+Please be careful check out this requirement: http://developer.android.com/sdk/index.html#Requirements before download. Be sure that you meet the requirement.
 
 Download: http://developer.android.com/sdk/index.html
 
