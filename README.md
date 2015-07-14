@@ -49,6 +49,15 @@ In advanced setting, you can edit your:
 - Custom skin definition
 - Keyboard
 
+#### How to install new Android SDK?
+
+You can access Android SDK Manager by click this icon on toolbar or **Tools -> Android -> SDK Manager**
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/Android%20SDK%20Manager%20Icon.png?raw=true "Android SDK Manager icon")
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/Android%20SDK%20Manager%20Window.png?raw=true "Android SDK Manager Window")
+
+
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Android-System-Architecture.svg/906px-Android-System-Architecture.svg.png "Layers and Architecture")
