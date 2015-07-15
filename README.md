@@ -40,7 +40,7 @@ Last step is **Verify Configuration**, enter the name of new android virtual dev
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Verify%20Config.png?raw=true "Android Virtual Device Verify Configuration")
 
-Click **Show advanced settings" if you want edit this android device in more detail.
+Click **Show advanced settings** if you want edit this android device in more detail.
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Advanced%20Settings.png?raw=true "Android Virtual Device Advanced Settings")
 
