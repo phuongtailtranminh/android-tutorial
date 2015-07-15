@@ -87,6 +87,17 @@ From menu: File -> New -> New Project
 
 > The above with bold text is the most important which we'll work with it more frequently than other
 
+#### activity_main.xml in detail
+
+You can design your app in here with 2 options: 
+
+- Text mode: using xml to create and edit components properties.
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/activity_main.xml_text_mode.png?raw=true "Text mode in app design")
+
+- Design mode: using drag-drop to create and edit components attributes.
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/activity_main.xml_design_mode.png?raw=true "Design mode in app design")
 
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
