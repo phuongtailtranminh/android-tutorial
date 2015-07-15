@@ -103,6 +103,10 @@ You can design your app in here with 2 options:
 
 #### How to communicate between fragment and activity? [Reference](http://developer.android.com/guide/components/fragments.html#CommunicatingWithActivity)
 
+[The DateTimePicker demo] (https://github.com/phuongtailtranminh/android-tutorial/tree/master/source-code/DatePickerDemo) will demonstrate how to use DialogFragment and communicate with Activity.
+
+This app simple let the user click on 'Change Date' button, then they'll pick a date. After that, TextView'll show the date they've just picked.
+
 > Fragment is a piece of an activity which enable more modular activity design. A fragment is a kind of sub-activity.
 
 > An activity represents a single screen with a user interface just like window or frame of Java. Android activity is the subclass of ContextThemeWrapper class.
