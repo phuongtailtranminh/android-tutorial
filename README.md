@@ -99,6 +99,26 @@ You can design your app in here with 2 options:
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/activity_main.xml_design_mode.png?raw=true "Design mode in app design")
 
+# Doing some cool stuff
+
+#### How to communicate between fragment and activity? [Reference](http://developer.android.com/guide/components/fragments.html#CommunicatingWithActivity)
+
+> Fragment is a piece of an activity which enable more modular activity design. A fragment is a kind of sub-activity.
+
+> An activity represents a single screen with a user interface just like window or frame of Java. Android activity is the subclass of ContextThemeWrapper class.
+
+Specifically, the fragment can access the Activity instance with getActivity() and easily perform tasks such as find a view in the activity layout:
+
+```java
+View listView = getActivity().findViewById(R.id.list);
+```
+
+Likewise, your activity can call methods in the fragment by acquiring a reference to the Fragment from FragmentManager, using findFragmentById() or findFragmentByTag(). For example:
+
+```java
+ExampleFragment fragment = (ExampleFragment) getFragmentManager().findFragmentById(R.id.example_fragment);
+```
+
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
 ![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Android-System-Architecture.svg/906px-Android-System-Architecture.svg.png "Layers and Architecture")
