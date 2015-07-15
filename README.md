@@ -69,6 +69,24 @@ You can access Android SDK Manager by click this icon on toolbar or **Tools -> A
 
 From menu: File -> New -> New Project
 
+#### Folder Structure of an Android App:
+
+[Reference](https://developer.android.com/tools/projects/index.html#ApplicationModules)
+
+![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/Android%20App%20Folder%20Structure.png?raw=true "Folder Structure of an Android App")
+
+- **app/java**: Contains Java source code for the app activities.
+
+- **app/res/layout**: XML Files that are compiled into screen layouts (or part of a screen)
+
+- **app/res/values**: For XML files tat define resources by XML element type. Unlike other resources in the res/ directory, resources written to XML files in this folder are not referneced by the file name. Instead, the XML element type controls how the resources defined within the XMl files are placed into the **R class**
+
+- app/manifests/AndroidManifest.xml: The contorl file that describes the nature ofthe application and each of its components. For instance, it describes: certain qualities about the activities, services, intent receivers, and content providers; what permissions are requested; what external libraries are needed; what device features are required; what API Levels are supported or required; and others.
+
+- Gradle Scripts: config for build system.
+
+> The above with bold text is the most important which we'll work with it more frequently than other
+
 
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
