@@ -6,6 +6,11 @@ This is quick start for android developer
 
 Android Studio is an official Android IDE supported by Google
 
+[Introduction to Android Studio video](https://www.youtube.com/watch?v=K2dodTXARqc&index=4&list=PLOU2XLYxmsILBTFkx5Fj_0TpUFKyZ1i7d)
+[Introduction to Gradle - Build System](https://www.youtube.com/watch?v=cD7NPxuuXYY&index=3&list=PLOU2XLYxmsILBTFkx5Fj_0TpUFKyZ1i7d)
+[Layout Editor in Android Studio](https://www.youtube.com/watch?v=JLLnhwtDoHw&index=2&list=PLOU2XLYxmsILBTFkx5Fj_0TpUFKyZ1i7d)
+[Debugging in Android Studio](https://www.youtube.com/watch?v=2I6fuD20qlY&index=1&list=PLOU2XLYxmsILBTFkx5Fj_0TpUFKyZ1i7d)
+
 Please **be careful** check out [this requirement](http://developer.android.com/sdk/index.html#Requirements) before download. Be sure that you meet the requirement.
 
 **Android Studio download link**: http://developer.android.com/sdk/index.html
