@@ -28,7 +28,7 @@ Then, we have to select a **System Image**; You have to download them if you don
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Select%20Image.png?raw=true "Android Virtual Device Select System Image")
 
-Last step is **Verify Configuration**, enter the name of new android device.
+Last step is **Verify Configuration**, enter the name of new android virtual device.
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/AVD%20Manager%20Verify%20Config.png?raw=true "Android Virtual Device Verify Configuration")
 
