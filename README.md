@@ -65,6 +65,10 @@ You can access Android SDK Manager by click this icon on toolbar or **Tools -> A
 
 ![alt text](https://github.com/phuongtailtranminh/android-tutorial/blob/master/images/Android%20SDK%20Manager%20Window.png?raw=true "Android SDK Manager Window")
 
+#### How to create new project?
+
+From menu: File -> New -> New Project
+
 
 # Android Architecture [more](https://en.wikipedia.org/wiki/Android_(operating_system)#Linux_kernel)
 
